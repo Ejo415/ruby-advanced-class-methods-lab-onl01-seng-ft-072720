@@ -49,7 +49,7 @@ class Song
   end
   
   def self.new_from_filename(name)
-    
+    song = self.new
   end 
   
 end
