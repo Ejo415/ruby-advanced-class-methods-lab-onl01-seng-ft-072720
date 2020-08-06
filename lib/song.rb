@@ -45,7 +45,7 @@ class Song
   end
   
   def self.destoy_all
-    self.all.clear
+    @@all.clear
   end
   
 end
