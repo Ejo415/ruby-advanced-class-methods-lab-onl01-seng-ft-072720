@@ -44,4 +44,8 @@ class Song
     self.all.sort_by{|song| song.name}
   end
   
+  def self.destoy_all
+    self.all.clear
+  end
+  
 end
