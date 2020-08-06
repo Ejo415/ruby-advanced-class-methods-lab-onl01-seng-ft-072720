@@ -40,7 +40,8 @@ class Song
     end
   end
   
-  
+  def self.alphabetical
+    @@all.each do 
   
   
 end
